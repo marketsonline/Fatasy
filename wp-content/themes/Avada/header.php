@@ -47,6 +47,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php echo Avada()->settings->get( 'google_analytics' ); ?>
 
 	<?php echo Avada()->settings->get( 'space_head' ); ?>
+    
+    <link href="<?php bloginfo('template_directory'); ?>/new-style.css" rel="stylesheet"> 
 </head>
 <?php
 $wrapper_class = '';
