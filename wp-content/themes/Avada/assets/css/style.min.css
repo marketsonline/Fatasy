@@ -11,3 +11,20 @@
 .fusion-main-menu ul{
 	margin-right:142px !important;
 }
+.fusion-button.button-1, input[type="submit"]{
+	text-transform:none !important;
+}
+.fusion-button,input[type="submit"] {
+	border: 1px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #E4C0AB 0%, #8F6355 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #8F6355 0%, #8F6355 100%);
+    border-image: linear-gradient(to bottom, #E4C0AB 0%, #8F6355 100%);
+    border-image-slice: 1;
+}
+.fusion-button-text, input[type="submit"], h3{
+  background: -webkit-linear-gradient(top, #E4C0AB, #8F6355 100%);
+	background: linear-gradient(top, #E4C0AB, #8F6355);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
